@@ -27,4 +27,15 @@
     }
   }
 
+  .section--branded {
+    border-bottom: 3px solid $border-colour;
+    padding-bottom: 5px;
+  }
+
+  .sidebar {
+    .section--branded {
+      border-bottom: 0;
+    }
+  }
+
 }
